@@ -1,0 +1,344 @@
+<!DOCTYPE html>
+<html >
+  <head>
+    
+   
+    <title>RhythmiX</title>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css"
+    />
+    <link rel="stylesheet" href="ab.css" />
+    <link rel="stylesheet" href="media.css">
+    <!--  -->
+  </head>
+  <body>
+    <header>
+      <!-- menu side class contain left part of website contain playlist , last song icon , list of some song , MARQ symbol  -->
+      <div class="menu_side">
+        <h1>RhythmiX</h1>
+        <div class="playlists">
+          <h4 class="active">
+            <span></span><i class="bi bi-music-note-list"></i> Playlist
+          </h4>
+          <h4>
+            <span></span><i class="bi bi-music-note-list"></i>Last Song
+          </h4>
+          <h4><span></span><i class="bi bi-music-note-list"></i>Favourite</h4>
+        </div>
+
+        <div class="menu_song">
+          <li class="songItem">
+            <span>01</span>
+            <img src="img/1.jpg" alt="" />
+            <span class="songname"
+              ><h5>
+                HK Beats  <br />
+                <div class="subtitle"></div>
+              </h5></span
+            >
+            <i class="bi playListPlay bi-play-circle" id="1"></i>
+          </li>
+          <li class="songItem">
+            <span>02</span>
+            <img src="img/2.jpg" alt="" />
+            <span class="songname">
+              <h5>
+              Romantic <br />
+                <div class="subtitle"></div>
+              </h5></span
+            >
+
+            <i class="bi playListPlay bi-play-circle" id="2"></i>
+          </li>
+          <li class="songItem">
+            <span>03</span>
+            <img src="img/3.jpg" alt="" />
+            <span class="songname">
+              <h5>
+                Drops Sound <br />
+                <div class="subtitle"></div>
+              </h5></span
+            >
+
+            <i class="bi playListPlay bi-play-circle" id="3"></i>
+          </li>
+          <li class="songItem">
+            <span>04</span>
+            <img src="img/4.jpg" alt="" />
+            <span class="songname"
+              ><h5>
+                Beats Beats Boom <br />
+                <div class="subtitle"></div>
+              </h5></span
+            >
+
+            <i class="bi playListPlay bi-play-circle" id="4"></i>
+          </li>
+          <li class="songItem">
+            <span>05</span>
+            <img src="img/5.jpg" alt="" />
+            <span class="songname">
+              <h5>
+                GLitch ...<br />
+                <div class="subtitle"></div>
+              </h5></span
+            >
+
+            <i class="bi playListPlay bi-play-circle" id="5"></i>
+          </li>
+          <li class="songItem">
+            <span>06</span>
+            <img src="img/6.jpg" alt="" />
+            <span class="songame">
+              <h5>
+                Rhythm between Beats <br />
+                <div class="subtitle"></div>
+              </h5></span
+            >
+
+            <i class="bi playListPlay bi-play-circle" id="6"></i>
+          </li>
+          <li class="songItem">
+            <span>07</span>
+            <img src="img/7.jpg" alt="" />
+            <span class="songname">
+              <h5>
+                Intense strong <br />
+                <div class="subtitle"></div>
+              </h5></span
+            >
+
+            <i class="bi playListPlay bi-play-circle" id="7"></i>
+          </li>
+          <li class="songItem">
+            <span>08</span>
+            <img src="img/8.jpg" alt="" />
+            <span class="songname">
+              <h5>
+                Funky street  <br />
+                <div class="subtitle"></div>
+              </h5></span
+            >
+
+            <i class="bi playListPlay bi-play-circle" id="8"></i>
+          </li>
+          <li class="songItem">
+            <span>09</span>
+            <img src="img/9.jpg" alt="" />
+            <span class="songname">
+              <h5>
+                 Africa Rhythm sport <br />
+                <div class="subtitle"></div>
+              </h5></span
+            >
+
+            <i class="bi playListPlay bi-play-circle" id="9"></i>
+          </li>
+          
+        </div>
+
+        <div class="marq">
+          <img src="img/marq.png" alt="" />
+        </div>
+      </div>
+      <!-- this song_side class contain main part like search bar , trending song etc... -->
+      <div class="song_side">
+        <nav>
+          <ul>
+            <li>HOME<span></span></li>
+            <li>ABOUT</li>
+            <li>CONTACT</li>
+          </ul>
+          <div class="srch">
+            <i class="bi bi-search"></i>
+            <input type="text" placeholder="Search music...." />
+            <div class="search_results">
+              <!-- <a href="" class="card">
+                <img src="img/1.jpg" alt="">
+                <div class="content">
+                  Ab to bas ek hi dhun hai
+                </div>
+              </a> -->
+             
+            </div>
+          </div>
+          <div class="user">
+            <img src="img/logo1.png" alt="" />
+          </div>
+        </nav>
+        <div class="content">
+          <h1>Dev Dynamos</h1>
+          <p>(Webster 2023 ) </br> Fueling the rhythm of innovation , Dev Dynamos strike a chord at 
+          Code sangam - where music meets the code, creating a symphony of digital brilliance</p>
+          <div class="btnss">
+          <button>LIKE</button>
+          <!-- <button>Follow</button> -->
+             </div>
+        </div>
+        <div class="popular_songs">
+          <div class="h4">
+            <h4>Trending</h4>
+            <div class="btns">
+              <i class="bi bi-caret-left-fill" id="song1_left"></i>
+              <i class="bi bi-caret-right-fill" id="song1_right"></i>
+            </div>
+          </div>
+          <div class="song1">
+            <li class="songItem">
+              <div class="img_play">
+                <img src="img/1.jpg" alt="" />
+                <i class="bi playListPlay bi-play-circle" id="1"></i>
+              </div>
+              <h5>
+                HK Beats  <br />
+                <div class="subtitle"></div>
+              </h5>
+            </li>
+            <li class="songItem">
+              <div class="img_play">
+                <img src="img/2.jpg" alt="" />
+                <i class="bi playListPlay bi-play-circle" id="2"></i>
+              </div>
+              <h5>
+                Romantic <br />
+                <div class="subtitle"></div>
+              </h5>
+            </li>
+            <li class="songItem">
+              <div class="img_play">
+                <img src="img/3.jpg" alt="" />
+                <i class="bi playListPlay bi-play-circle" id="3"></i>
+              </div>
+              <h5>
+                Drops Sound <br />
+                <div class="subtitle"></div>
+              </h5>
+            </li>
+            <li class="songItem">
+              <div class="img_play">
+                <img src="img/4.jpg" alt="" />
+                <i class="bi playListPlay bi-play-circle" id="4"></i>
+              </div>
+              <h5>
+                Beats Beats Boom <br />
+                <div class="subtitle"></div>
+              </h5>
+            </li>
+            <li class="songItem">
+              <div class="img_play">
+                <img src="img/5.jpg" alt="" />
+                <i class="bi playListPlay bi-play-circle" id="5"></i>
+              </div>
+              <h5>
+                GLitch ... <br />
+                <div class="subtitle"></div>
+              </h5>
+            </li>
+            <li class="songItem">
+              <div class="img_play">
+                <img src="img/6.jpg" alt="" />
+                <i class="bi playListPlay bi-play-circle" id="6"></i>
+              </div>
+              <h5>
+                Africa Rhythm sport <br />
+                <div class="subtitle"></div>
+              </h5>
+            </li>
+            <li class="songItem">
+              <div class="img_play">
+                <img src="img/7.jpg" alt="" />
+                <i class="bi playListPlay bi-play-circle" id="7"></i>
+              </div>
+              <h5>
+                Rhythm between Beats <br />
+                <div class="subtitle"></div>
+              </h5>
+            </li>
+            <li class="songItem">
+              <div class="img_play">
+                <img src="img/8.jpg" alt="" />
+                <i class="bi playListPlay bi-play-circle" id="8"></i>
+              </div>
+              <h5>
+                Funky street <br />
+                <div class="subtitle"></div>
+              </h5>
+            </li>
+            <li class="songItem">
+              <div class="img_play">
+                <img src="img/9.jpg" alt="" />
+                <i class="bi playListPlay  bi-play-circle" id="9"></i>
+              </div>
+              <h5>
+                Intense strong <br />
+                <div class="subtitle"></div>
+                
+            </li>
+            <li class="songItem">
+              <div class="img_play">
+                <img src="img/10.jpg" alt="" />
+                <i class="bi playListPlay  bi-play-circle" id="10"></i>
+              </div>
+              <h5>
+                Stick Drum Beats <br />
+                <div class="subtitle"></div>
+                
+            </li>
+            <li class="songItem">
+              <div class="img_play">
+                <img src="img/11.jpg" alt="" />
+                <i class="bi playListPlay  bi-play-circle" id="11"></i>
+              </div>
+              <h5>
+                Blaster Box <br />
+                <div class="subtitle"></div>
+                
+            </li>
+          </div>
+        </div>
+      </div>
+<!--  master play contain play pause buttons  ,volume bar , progress bar  -->
+      <div class="master_play">
+        <div class="wave" id="wave">
+         <div class="wave1"></div>
+         <div class="wave1"></div>
+         <div class="wave1"></div>
+        </div>
+        <img src="img/1.jpg" alt="" id="poster_master_play">
+        <h5 id="title">
+          sound boom 
+          <div class="subtitle"></div>
+        </h5>
+        <div class="icon">
+          <i class="bi bi-skip-start-fill" id="back"></i>
+          <i class="bi bi-play-circle" id="masterPlay"></i>
+          <i class="bi bi-skip-end-fill" id="next"></i>
+          <a href="" id="download_music"><i class="bi bi-cloud-arrow-down" ></i></a>
+          <!-- for download watch kds coder 9 min  -->
+        </div>
+        <span id="currentStart">0:00</span>
+        <div class="bar">
+          <input
+            type="range"
+            name="range"
+            id="seek"
+            min="0"
+            max="100"
+          />
+          <div class="bar2" id="bar2"></div>
+          <div class="dot"></div>
+        </div>
+        <span id="currentEnd">0:40</span>
+        <div class="vol">
+          <i class="bi bi-volume-up-fill" id="vol_icon" id="vol_icon"></i>
+          <input type="range" min="0" max="100" id="vol">
+          <div class="vol_bar"></div>
+          <div class="dot" id="vol_dot"></div>
+         
+        </div>
+      </div>
+    </header>
+  </body>
+  <script src="cd.js"></script>
+</html>
